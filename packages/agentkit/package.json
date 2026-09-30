@@ -1,0 +1,16 @@
+{
+  "name": "agentkit-market-intelligence",
+  "version": "0.1.0",
+  "description": "Coinbase AgentKit action provider for the Market Intelligence API: the agent's wallet pays each call with x402",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "repository": "https://github.com/StanislavValov/market-intelligence-agent-plugins",
+  "keywords": ["agentkit", "coinbase", "x402", "trading", "crypto", "ai-agents"],
+  "scripts": { "build": "tsc -p ." },
+  "dependencies": { "market-intelligence-core": "0.1.0", "@x402/fetch": "2.28.0", "@x402/evm": "2.28.0" },
+  "peerDependencies": { "@coinbase/agentkit": ">=0.10.0" },
+  "devDependencies": { "@coinbase/agentkit": "0.10.4", "typescript": "^5.6.0", "@types/node": "^22.0.0" }
+}

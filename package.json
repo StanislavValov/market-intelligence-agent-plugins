@@ -1,0 +1,9 @@
+{
+  "name": "market-intelligence-agent-plugins",
+  "private": true,
+  "workspaces": ["packages/core", "packages/elizaos", "packages/agentkit"],
+  "scripts": {
+    "build": "npm run build -w packages/core && npm run build -w packages/elizaos && npm run build -w packages/agentkit",
+    "smoke": "node scripts/smoke.mjs"
+  }
+}

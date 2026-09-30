@@ -1,0 +1,15 @@
+{
+  "name": "market-intelligence-core",
+  "version": "0.1.0",
+  "description": "Client and tool catalog for the Market Intelligence API (x402 pay-per-call market data for AI agents)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "repository": "https://github.com/StanislavValov/market-intelligence-agent-plugins",
+  "keywords": ["x402", "ai-agents", "market-data", "crypto", "trading", "mcp"],
+  "scripts": { "build": "tsc -p ." },
+  "dependencies": { "@x402/fetch": "2.28.0", "@x402/evm": "2.28.0", "viem": "^2.21.0", "zod": "^3.25.76" },
+  "devDependencies": { "typescript": "^5.6.0", "@types/node": "^22.0.0" }
+}

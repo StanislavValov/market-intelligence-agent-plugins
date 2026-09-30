@@ -1,0 +1,16 @@
+{
+  "name": "elizaos-plugin-market-intelligence",
+  "version": "0.1.0",
+  "description": "ElizaOS plugin: trading decisions, token risk, new tokens, swap quotes and more from the Market Intelligence API, paid per call with x402",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "repository": "https://github.com/StanislavValov/market-intelligence-agent-plugins",
+  "keywords": ["elizaos", "elizaos-plugin", "x402", "trading", "crypto", "token-risk"],
+  "scripts": { "build": "tsc -p ." },
+  "dependencies": { "market-intelligence-core": "0.1.0", "zod": "^3.25.76" },
+  "peerDependencies": { "@elizaos/core": "^1.7.0" },
+  "devDependencies": { "@elizaos/core": "1.7.2", "typescript": "^5.6.0", "@types/node": "^22.0.0" }
+}
